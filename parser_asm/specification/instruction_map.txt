@@ -1,0 +1,21 @@
+//  instructions map MIPS arch
+
+//  register-type  instruction
+//  mnemonics   type   opcode   shamt   funct    num_arg
+    add          R     000000   00000   100000      3
+    sub          R     000000   00000   100010      3
+    or           R     000000   00000   100101      3
+    and          R     000000   00000   100100      3
+    slt          R     000000   00000   101010      3
+
+//  immediate-type instruction
+//  mnemonics   type   opcode   num_arg
+    addi         I     001000      3
+    lw           I     100011      2
+    sw           I     101011      2
+    beq          I     000100      3
+    bne          I     000101      3
+
+//  jump-type instruction
+//  mnemonics   type   opcode   num_arg
+    j            J     000010      1

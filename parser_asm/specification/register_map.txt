@@ -1,0 +1,32 @@
+$0      0       - null constatnt
+$at     1       - temp register for assembler
+$v0     2       - return values functions
+$v1     3       - return values functions
+$a0     4       - arguments functions
+$a1     5       - arguments functions
+$a2     6       - arguments functions
+$a3     7       - arguments functions
+$t0     8       - temporary variables
+$t1     9       - temporary variables
+$t2     10      - temporary variables
+$t3     11      - temporary variables
+$t4     12      - temporary variables
+$t5     13      - temporary variables
+$t6     14      - temporary variables
+$t7     15      - temporary variables
+$s0     16      - saving variables
+$s1     17      - saving variables
+$s2     18      - saving variables
+$s3     19      - saving variables
+$s4     20      - saving variables
+$s5     21      - saving variables
+$s6     22      - saving variables
+$s7     23      - saving variables
+$t8     24      - temporary variables
+$t9     25      - temporary variables
+$k0     26      - temporary variables for operation system
+$k1     27      - temporary variables for operation system
+$gp     28      - global pointer
+$sp     29      - stack  pointer
+$fp     30      - frame pointer
+$ra     31      - function return address
