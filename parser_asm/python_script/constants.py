@@ -31,5 +31,5 @@ RIGHT_BRACKET = ')'
 
 
 # path to the specifications files
-REGISTER_SPEC    = "../specification/register_map.txt"
-INSTRUCTION_SPEC = "../specification/instruction_map.txt"
+REGISTER_SPEC    = "./parser_asm/specification/register_map.txt"
+INSTRUCTION_SPEC = "./parser_asm/specification/instruction_map.txt"
