@@ -29,7 +29,7 @@ vlog -sv ../../source_test/multi_cycle/0_harris_test.sv
 vsim work.mips_test_harris
 
 # load software
-mem load -i ../../../programs/bin_view/0_test_harris.mem -format binary /mips_test_harris/dut/U_1/mem
+mem load -i ../../../programs/bin_view/0_test_harris_bin.mem -format binary /mips_test_harris/dut/U_1/mem
 
 # add all signals tu time diagramm
 add wave -radix hexadecimal /mips_test_harris/*
